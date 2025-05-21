@@ -49,7 +49,7 @@ SfM_Pipeline/
    python3 rasterRenderRGB.py -s <orthofilepath>
    # Renders RGB image for visualization.
 ```
-### **multispectral Workflow**
+### **Multispectral Workflow**
 > *(Similar workflow to RGB)*
 
 ```bash
@@ -62,9 +62,9 @@ SfM_Pipeline/
    metashape.exe -r bipRPImageAlignment.py -wp <project_path>
 
 3. Run:
-   metashape.exe -r bipRPImageAlignment.py -wp <project_path>
+   metashape.exe -r bipRPModelGeneration.py -wp <project_path>
    # Generates DSM and orthomosaic.
 
 4. Render multispectral RGB-style composite:
-   python3 rasterRenderRGB.py -s <orthomosaic_path>
+   python3 rasterRenderRGB.py -s <orthofilepath>
 ```
