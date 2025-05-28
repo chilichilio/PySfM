@@ -27,11 +27,11 @@ SfM_Pipeline/
 0. Save all images in one folder.
 
 1. Run:
-   python bipRGBImageCheck2.py -sf <source_folder> -ext <.extension> -tf <target_folder>
+   python bipRGBImageCheck2.py -sf <project_path> -ext <.extension> -tf <project_path>
    # Checks total number of images, renames and combines them into a 'renamed' folder.
 
 2. Run:
-   metashape.exe -r bipRGBImageAlignment2.py -sf <source_folder> -ext <.extension> -tf <target_folder>
+   metashape.exe -r bipRGBImageAlignment2.py -sf <project_path> -ext <.extension> -tf <project_path>
    # Aligns images in Metashape.
 
 3. For regular dataset size:
@@ -56,7 +56,7 @@ SfM_Pipeline/
 0. Save all multispectral images in one folder.
 
 1. Run:
-   python bipRPImageCheck2.py <source_folder>
+   python bipRPImageCheck2.py <project_path>
 
 2. Run:
    metashape.exe -r bipRPImageAlignment.py -wp <project_path>
