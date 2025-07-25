@@ -18,6 +18,15 @@ SfM_Pipeline/
 ├── bip/                  # Python scripts for each pipeline stage
 ├── PyPlotExtraction/     # Plot-level processing scripts
 └── README.md             # Project documentation
+
+8_trait_extract_dem/
+├── dem_by_plot/                 ← 1-band DEM .tif files per plot (in cm)
+├── masks_overlapping/          ← binary masks for each plot image (same size/filename as DEM)
+├── mulch_height/
+│   └── AS_S2.xlsx              ← Excel file with ground (mulch) height reference per plot
+└── metashape_report/
+    └── gsd_4_all.xlsx          ← Excel file with GSD (mm/pix) per date (used to convert px² to cm²)
+
 ```
 
 
